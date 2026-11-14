@@ -102,6 +102,19 @@ body {
     border-color: var(--accent);
 }
 
+.favorite-star {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(234, 179, 8, 0.9);
+    color: #0F172A;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
 .container {
     max-width: 1200px;
     margin: 2rem auto;
