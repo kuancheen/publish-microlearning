@@ -74,6 +74,36 @@ body {
     border-color: var(--accent);
 }
 
+.filter-accordion-toggle {
+    display: none;
+    background: #1E293B;
+    border: 1px solid #334155;
+    color: var(--text-primary);
+    padding: 0.65rem 1rem;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.filter-accordion-toggle:hover {
+    border-color: var(--accent);
+}
+
+.accordion-arrow {
+    font-size: 0.75rem;
+    color: var(--accent);
+    transition: transform 0.2s ease;
+}
+
+.filter-accordion-toggle.open .accordion-arrow {
+    transform: rotate(180deg);
+}
+
 .category-filters {
     max-width: 1200px;
     margin: 1rem auto 0 auto;
@@ -81,6 +111,36 @@ body {
     gap: 0.5rem;
     overflow-x: auto;
     padding-bottom: 0.25rem;
+}
+
+@media (max-width: 768px) {
+    .filter-accordion-toggle {
+        display: flex;
+        width: 100%;
+    }
+
+    .category-filters {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0.5rem;
+        background: #131E31;
+        border: 1px solid #2A3B52;
+        border-radius: 10px;
+        padding: 0.75rem;
+        overflow-x: visible;
+    }
+
+    .category-filters.open {
+        display: flex;
+    }
+
+    .filter-btn {
+        width: 100%;
+        text-align: left;
+        border-radius: 8px;
+        padding: 0.6rem 0.85rem;
+    }
 }
 
 .filter-btn {
@@ -324,6 +384,33 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.detail-category-badge {
+    color: #FFF;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 4px 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.article-meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.article-category-tag {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 .back-link {

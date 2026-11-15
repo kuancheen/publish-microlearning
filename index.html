@@ -21,7 +21,11 @@
                 <input type="text" id="searchInput" placeholder="Search insights, headlines, topics..." />
             </div>
         </div>
-        <div class="category-filters">
+        <div class="filter-accordion-toggle" id="filterAccordionToggle">
+            <span>🏷️ Filter Topics (<span id="activeFilterName">All</span>)</span>
+            <span class="accordion-arrow">▼</span>
+        </div>
+        <div class="category-filters" id="categoryFilters">
             <button class="filter-btn active" data-filter="all">All</button> <button class="filter-btn favorite-filter" data-filter="favorites">⭐ Favorites</button> <button class="filter-btn" data-filter="Family &amp; Intentional Fatherhood">Family &amp; Intentional Fatherhood</button> <button class="filter-btn" data-filter="Personal Mastery &amp; Professional Edge">Personal Mastery &amp; Professional Edge</button> <button class="filter-btn" data-filter="Spiritual Depth &amp; Christian Growth">Spiritual Depth &amp; Christian Growth</button>
         </div>
     </header>
@@ -1954,8 +1958,18 @@
         const filterBtns = document.querySelectorAll('.filter-btn');
         const cards = document.querySelectorAll('.card-preview');
         const featured = document.querySelector('.featured-card-section');
+        const filterToggle = document.getElementById('filterAccordionToggle');
+        const categoryFilters = document.getElementById('categoryFilters');
+        const activeFilterName = document.getElementById('activeFilterName');
 
         let currentCategory = 'all';
+
+        if (filterToggle && categoryFilters) {
+            filterToggle.addEventListener('click', () => {
+                categoryFilters.classList.toggle('open');
+                filterToggle.classList.toggle('open');
+            });
+        }
 
         function filterCards() {
             const query = searchInput.value.toLowerCase().trim();
@@ -1997,6 +2011,13 @@
                 filterBtns.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 currentCategory = btn.getAttribute('data-filter');
+                if (activeFilterName) {
+                    activeFilterName.textContent = btn.textContent;
+                }
+                if (window.innerWidth <= 768 && categoryFilters && categoryFilters.classList.contains('open')) {
+                    categoryFilters.classList.remove('open');
+                    if (filterToggle) filterToggle.classList.remove('open');
+                }
                 filterCards();
             });
         });
