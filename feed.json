@@ -6,6 +6,15 @@
   "description": "Daily high-signal microlearning cards across Personal Mastery, Family, and Spiritual Depth.",
   "items": [
     {
+      "id": "127",
+      "url": "https://kuancheen.github.io/publish-microlearning/cards/127.html",
+      "title": "The Good Thing About Hard Things",
+      "content_text": "A recent study presented at the Conference on Language Modeling found that participants who used AI to solve math problems performed worse and gave up more often when the tool was removed than those who solved the problems independently. The researchers observed that while the AI-assisted group initially had higher accuracy, their performance dropped significantly below the control group once the chatbot was turned off, with many participants skipping questions entirely. This pattern held true even when the tasks shifted from math to reading comprehension, suggesting a broad impact on persistence rather than just a specific skill gap.\n\nCal Newport, who has spent a decade analyzing how technology affects our mental habits, argues that this speed of decline is the real alarm. Unlike the slow, generational shift caused by smartphones, the erosion of cognitive fitness from AI assistance appears immediate. When we become accustomed to answers arriving in seconds, any task requiring sustained mental effort begins to feel inefficient and intolerable. Newport emphasizes that serious, intentional thought is not just a productivity metric; it is how we make sense of our lives, imagine new possibilities, and maintain our distinctively human capacity for empathy and philosophy. A life without this struggle is, in his view, impoverished.\n\nThe good news is that we do not yet know if these effects are permanent. Participants might recover their persistence if given time and a setting where AI is clearly unavailable. However, the warning is clear: we are interacting with a powerful force that we do not fully understand. The responsibility to protect our cognitive fitness no longer lies with the tool creators, but with us. We must intentionally choose when to struggle and when to seek help, recognizing that the difficulty itself is valuable.\n\n**Try it today:** Pick one task you usually delegate to a search engine or AI assistant. Spend ten minutes working through it manually, without any external help, and note how your focus feels after the struggle.\n\n*What is one hard thing you\u2019ve been avoiding because it feels too slow?* ",
+      "summary": "Struggling through difficult tasks builds the cognitive resilience that quick answers erode.",
+      "image": "banners/banner_card_127.png",
+      "date_published": "2026-11-18T01:00:19.642401Z"
+    },
+    {
       "id": "126",
       "url": "https://kuancheen.github.io/publish-microlearning/cards/126.html",
       "title": "The End of Self-Condemnation",
