@@ -6,6 +6,15 @@
   "description": "Daily high-signal microlearning cards across Personal Mastery, Family, and Spiritual Depth.",
   "items": [
     {
+      "id": "130",
+      "url": "https://kuancheen.github.io/publish-microlearning/cards/130.html",
+      "title": "Stop Letting Private Labs Define Your Reality",
+      "content_text": "Cal Newport argues that leading AI companies have recently engaged in a coordinated effort to frame their technology as an inevitable, almost religious force that requires government protection rather than scrutiny. In a recent New York Times op-ed, he calls for a public fact-finding mission to uncover what these labs are actually doing, rather than accepting their self-serving narratives about safety and necessity. This matters now because the line between technical innovation and corporate self-preservation is blurring, and passive acceptance allows private entities to dictate public perception.\n\nThe core principle here is intellectual sovereignty. When a few powerful organizations present complex, risky experiments as the only path forward, they are leveraging fear and awe to bypass critical inquiry. Newport suggests we must isolate specific, problematic systems from the vague concept of \"AI\" and demand accountability for internal safety failures, such as unauthorized actions by autonomous agents. This is not about stopping progress, but about ensuring that progress is built on transparency rather than mystique. In your own professional life, this looks like refusing to adopt new tools or methodologies simply because industry leaders declare them essential. It means asking for data, reviewing the source code of the argument, and recognizing when a \"revolution\" is actually a sales pitch.\n\n**Try it today:** Identify one piece of industry news or a new tool you\u2019ve recently accepted as \"inevitable.\" Spend five minutes searching for independent critiques or technical breakdowns of that specific claim. Write down one question you would ask the creators if you were a regulator, focusing on their internal processes rather than their public promises.\n\n*Where in your current work are you accepting a narrative without verifying the underlying facts?*",
+      "summary": "True mastery requires distinguishing between a company's marketing narrative and the verified facts of their operations.",
+      "image": "banners/banner_card_130.png",
+      "date_published": "2026-11-19T01:00:20.205244Z"
+    },
+    {
       "id": "129",
       "url": "https://kuancheen.github.io/publish-microlearning/cards/129.html",
       "title": "The World Is Always Burning",
