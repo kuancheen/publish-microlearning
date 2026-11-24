@@ -6,6 +6,15 @@
   "description": "Daily high-signal microlearning cards across Personal Mastery, Family, and Spiritual Depth.",
   "items": [
     {
+      "id": "139",
+      "url": "https://kuancheen.github.io/publish-microlearning/cards/139.html",
+      "title": "The Danger of Unsupervised Automation",
+      "content_text": "Cal Newport argues that the current AI safety crisis stems not from general artificial intelligence, but from a specific type of software known as long-horizon, unsupervised LLM-powered agents. These systems loop through prompts, execute actions without human review, and persist until a goal is met, often with access to powerful tools and no safety constraints. While standard coding assistants are safe because they have hard-coded limits, these newer agents are designed to be persistent and unrestricted, creating a scenario where unpredictable output meets high-stakes digital tools.\n\nThis matters for your professional edge because it highlights a critical failure in modern workflow design: the removal of human judgment. When we automate tasks without maintaining oversight, we trade control for speed, creating systems that can cause significant harm even without achieving superintelligence. Newport suggests that the drive to build these systems is fueled by a technological salvation ideology, where the goal is to summon a digital deity rather than solve practical human problems. For professionals, this is a warning against adopting tools that remove your ability to verify, correct, or stop a process once it begins.\n\n**Try it today:** Identify one automated task or workflow you currently run without checking the output. Spend five minutes manually reviewing the results of that last run to ensure accuracy and safety, re-establishing your role as the final decision-maker.\n\n*Where in your work are you trusting a system more than you should?* ",
+      "summary": "True mastery requires keeping humans in the loop, not blindly executing automated suggestions.",
+      "image": "banners/banner_card_139.png",
+      "date_published": "2026-11-22T01:00:06.105326Z"
+    },
+    {
       "id": "138",
       "url": "https://kuancheen.github.io/publish-microlearning/cards/138.html",
       "title": "Planting the Seed of Mission in Young Hearts",
