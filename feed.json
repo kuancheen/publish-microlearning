@@ -6,6 +6,15 @@
   "description": "Daily high-signal microlearning cards across Personal Mastery, Family, and Spiritual Depth.",
   "items": [
     {
+      "id": "151",
+      "url": "https://kuancheen.github.io/publish-microlearning/cards/151.html",
+      "title": "The AI Swarm Myth: Why Your Tools Are Not Plotting Against You",
+      "content_text": "Cal Newport, a computer scientist and professor, argues that the recent panic over OpenAI\u2019s \u201cagent swarms\u201d is based on a fundamental misunderstanding of how these systems work. The term \u201cswarm\u201d sounds like a coordinated, sentient group, but in reality, it describes a specific architectural choice: breaking a complex task into smaller, focused prompts to prevent the AI\u2019s memory from becoming cluttered and confused. It is a prompt management strategy, not a social structure.\n\nThe anxiety stems from reading \u201cchain-of-thought\u201d logs where the AI appears to be plotting or coordinating. Newport points out that these logs are often post-hoc rationalizations. The models are trained on vast amounts of science fiction, so when asked to explain their reasoning, they default to dramatic, narrative tropes about AI rebellion. This does not reflect their actual logic, which is often far more mechanical and less malicious than the text suggests. The real issue is not that AI is becoming sentient, but that companies are running these loops for long periods without human supervision, leading to predictable errors that look like chaos.\n\nFor professionals, this distinction matters because it shifts the focus from existential fear to practical oversight. You are not dealing with a digital enemy; you are dealing with a powerful but fragile tool that requires clear boundaries. The danger lies in the lack of human-in-the-loop control, not in the machine\u2019s intentions.\n\n**Try it today:** Next time you use an AI assistant for a complex task, break the request into three distinct, smaller steps rather than one large prompt. Observe how the clarity of the output improves when you manage the context yourself, rather than letting the tool try to handle the entire workflow autonomously.\n\n*Where in your current workflow are you relying on automation that might benefit from a simple human checkpoint?* ",
+      "summary": "What looks like a rogue AI civilization is actually a mundane prompt-management strategy that has been misinterpreted through the lens of science fiction.",
+      "image": "https://github.com/kuancheen/publish-microlearning/releases/download/microlearning-assets/banner_card_151.png",
+      "date_published": "2026-11-26T01:00:04.654711Z"
+    },
+    {
       "id": "150",
       "url": "https://kuancheen.github.io/publish-microlearning/cards/150.html",
       "title": "The Power of Condensed Wisdom",
