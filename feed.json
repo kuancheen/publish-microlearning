@@ -6,6 +6,15 @@
   "description": "Daily high-signal microlearning cards across Personal Mastery, Family, and Spiritual Depth.",
   "items": [
     {
+      "id": "150",
+      "url": "https://kuancheen.github.io/publish-microlearning/cards/150.html",
+      "title": "The Power of Condensed Wisdom",
+      "content_text": "Books At a Glance is a Christian book summary service that condenses the newest and most significant publications from major publishers like Crossway, Zondervan, and IVP into 7-10 page chapter-by-chapter overviews. This approach addresses a common tension in modern faith: the desire for deep theological understanding versus the reality of limited time. By distilling complex ideas into manageable formats, the service makes substantial spiritual growth accessible to those who cannot dedicate hours to reading full-length texts.\n\nThe core principle here is that depth does not require duration. Many Christians feel guilty for not reading more, assuming that spiritual maturity is measured by the number of books finished. However, intentional engagement with a few key ideas, properly understood, can be more transformative than skimming many. This method respects the reader\u2019s time while honoring the weight of the material, ensuring that the essence of the teaching is preserved rather than lost in the details.\n\nIn practice, this means you can integrate serious study into a busy week. Whether you are navigating a difficult season in marriage, seeking clarity on a doctrinal question, or simply wanting to grow in your understanding of Scripture, a concise summary provides a solid foundation. It allows you to grasp the author\u2019s main argument and apply it immediately, rather than waiting months to finish a book. This is not a shortcut that sacrifices truth; it is a tool that prioritizes clarity and application.\n\n**Try it today:** Choose one book you have been meaning to read but have not started. Instead of opening the first chapter, search for a reputable summary or review that outlines the main points. Spend five minutes reading that overview to see if the book\u2019s core message resonates with your current needs. This helps you decide if it is worth your full attention or if another resource would serve you better right now.\n\n*What is one theological question you have been avoiding because you felt you needed to read a whole book to answer it?*",
+      "summary": "Structured summaries allow busy believers to engage deeply with significant theological works without sacrificing their daily responsibilities.",
+      "image": "https://github.com/kuancheen/publish-microlearning/releases/download/microlearning-assets/banner_card_150.png",
+      "date_published": "2026-11-25T01:01:37.296363Z"
+    },
+    {
       "id": "149",
       "url": "https://kuancheen.github.io/publish-microlearning/cards/149.html",
       "title": "Love Is a Language, Not a Feeling",
